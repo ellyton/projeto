@@ -167,6 +167,16 @@ footer {
   font-size: 14px;
 }
 
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  background-color: azure;
+}
+
 /* media queries */
 @media(min-width: 700px) {
   :root {
